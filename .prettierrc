@@ -1,0 +1,6 @@
+{
+  "singleQuote": true,
+  "endOfLine": "lf",
+  "maxLineLength": 100,
+  "semi": false
+}
