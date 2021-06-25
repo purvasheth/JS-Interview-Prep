@@ -53,10 +53,10 @@ function CommentTree() {
 }
 
 const redditComments = new CommentTree()
-const firstId = redditComments.addComment('Isha', 'Nice Pic!')
-const secondId = redditComments.addComment('Chavi', 'Looking pretty')
+const firstId = redditComments.addComment('I', 'Nice Pic!')
+const secondId = redditComments.addComment('C', 'Looking pretty')
 const thirdId = redditComments.addComment(
-  'Purva',
+  'P',
   'Mast dikhri! kaha ghum rahi hai?'
 )
 const followUpFirstId = redditComments.addComment('OG', 'Thanks!', firstId)
@@ -66,7 +66,7 @@ const followUpSecondId = redditComments.addComment(
   secondId
 )
 const secondFollowUpSecondId = redditComments.addComment(
-  'Chavi',
+  'C',
   'Sadly looks better on you :(',
   followUpSecondId
 )
